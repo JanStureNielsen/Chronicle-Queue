@@ -59,7 +59,7 @@ public class QueueSingleThreadedJLBHBenchmark implements JLBHTask {
         new JLBH(lth).start();
     }
 
-    //@SuppressWarnings("unchecked")
+	@SuppressWarnings("unchecked")
 	@Override
     public void init(JLBH jlbh) {
         IOTools.deleteDirWithFiles("replica", 10);
